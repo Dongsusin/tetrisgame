@@ -13,7 +13,7 @@ class Tetris {
       (this.stageCanvas.height - this.cellSize * this.stageHeight) / 2;
     this.blocks = this.createBlocks();
     this.deletedLines = 0;
-    //키보드입력력
+    //키보드입력
     window.onkeydown = (e) => {
       if (e.keyCode === 37) {
         this.moveLeft();
